@@ -3,7 +3,7 @@
     margin: 0%;
 }
 body{
-    background-color: #11365e;
+    background-color: #0a2e52;
 }
 .lie{
   display: flex;
@@ -49,6 +49,50 @@ h1{
     background: #027BFE;
     border: 1px solid #DFDFDF
 }
+.kit{
+    display: none;
+}
 .open{
     padding: 0.5em;
+}
+.tits{
+    font-weight: 400;
+    letter-spacing: 0.504px;
+}
+@media screen and (max-width: 700px) {
+    .kit{
+        display: flex;
+        justify-content: space-between;
+        padding: 10%;
+    }
+    .y{
+        display: none;
+    }
+    .like{
+        align-items: center;
+        width: 100%;
+        height: 578px;
+    }
+    .f{
+        width: 70%;
+        margin-top: 40px;
+    }
+    .h{
+        width: 100%;
+    }
+    .lie{
+        padding: 0px;
+    }
+    .btn{
+        width: 100%;
+    }
+    .tits{
+        margin-top: 40px;
+    }
+    .just{
+        margin-left:-14% ;
+    }
+    .vice{
+        margin-right: -10%;
+    }
 }
